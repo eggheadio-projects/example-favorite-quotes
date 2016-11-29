@@ -1,6 +1,6 @@
 ![course image](https://d2eip9sf3oo6c2.cloudfront.net/series/covers/000/000/027/full/course_banner.png?1457396286)
 
-# React Testing Cookbook
+<center># React Testing Cookbook</center>
 
 The definition of "legacy code" can be described simply as "code that doesn't have tests." Code you just wrote, 5 minutes ago? Legacy code. Code that can't be refactored, but only changed.
 
