@@ -1,13 +1,13 @@
-# favorite-quotes
+![course image](https://d2eip9sf3oo6c2.cloudfront.net/series/covers/000/000/027/full/course_banner.png?1457396286)
 
-An example React application (with tests). The app lets you add quotes (author and quote text), and then like or remove them from your quote list. You can also change the color theme of your quote list.
+# React Testing Cookbook
 
-## Accompanying Video Lessons
+The definition of "legacy code" can be described simply as "code that doesn't have tests." Code you just wrote, 5 minutes ago? Legacy code. Code that can't be refactored, but only changed.
 
-The video lessons that go along with this code are in [the "React Testing Cookbook" course on Egghead.io](https://egghead.io/series/react-testing-cookbook). Although the files are organized in this project in a cohesive way, each piece of code from the accompanying video lesson is meant to be a single, stand-alone cookbook "recipe" that can be applied to many other situations.
+How do we prevent the mountain of legacy code that most projects become?
 
-## Getting Started
+A solid testing strategy.
 
-1. `npm install`
-1. `npm test` to run tests
-1. `npm run dev` and go to `localhost:8080` to run app and tests at the same time
+React apps are no different, and can be tested simply if you know some core principles.
+
+In this course we will take a look at testing React applications. From getting setup and running tests, all the way through testing Redux enabled React applications.
