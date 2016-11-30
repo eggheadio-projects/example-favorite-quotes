@@ -9,10 +9,7 @@
   "author": "Trevor D. Miller <trevordmiller@icloud.com> (www.trevordmiller.com)",
   "main": "./src/index",
   "scripts": {
-    "test": "mocha './src/**/*.spec.js' --compilers js:babel-core/register",
-    "test:watch": "npm test -- --watch",
-    "serve": "webpack-dev-server --content-base dist/ --no-info",
-    "dev": "parallelshell 'npm run test:watch' 'npm run serve'"
+
   },
   "dependencies": {
     "classnames": "2.2.5",
