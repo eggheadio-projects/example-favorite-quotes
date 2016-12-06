@@ -8,3 +8,12 @@ const CoolComponent = ({greeting}) => (
     <div>{greeting}</div>
   </div>
 );
+
+describe('CoolComponent', () => {
+  it('should...', () => {
+    const renderer = TestUtils.createRenderer();
+    renderer.render(<CoolComponent greeting="hello world" />);
+    const output = renderer.getRenderOutput();
+    console.log(output);
+  });
+});
