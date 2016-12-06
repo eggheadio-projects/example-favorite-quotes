@@ -10,10 +10,10 @@ const CoolComponent = ({greeting}) => (
 );
 
 describe('CoolComponent', () => {
-
   it('should...', () => {
     const renderer = TestUtils.createRenderer();
-    renderer.render(<CoolComponent greeting='hello world' />);
-    renderer.getRenderOutput().props.children;
+    renderer.render(<CoolComponent greeting="hello world" />);
+    const output = renderer.getRenderOutput();
+    console.log(output);
   });
 });
